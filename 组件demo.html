@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>智慧校园组件</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<link rel="stylesheet" type="text/css" href="./css.css">
+	<script type="text/javascript" src="./js.js"></script>
+</head>
+
+<body>
+	<div style="text-align:center;margin:20px;background-color:black;color:#fff;">弹层-编辑确定</div>
+
+	<!-- 弹层-编辑确定 -->
+	<div class="edit_confirm">
+		<h5>编辑须知</h5>
+		<p>编辑小伙伴通讯录信息，需经对方或通讯录创建者确认，确认后即可成功编辑。</p>
+		<span></span>
+		<div class="confirm_yes">确定</div>
+		<div class="confirm_no">取消</div>
+	</div>
+
+	<div style="text-align:center;margin:20px;background-color:black;color:#fff;">弹层-通知确认</div>
+
+	<!-- 弹层-通知确认 -->
+	<div class="information_confirm">
+		<h5>等待确认</h5>
+		<p>确认请求已发送，等待＂陈滨豪＂或通讯录创建者＂黄可欣＂确认。</p>
+		<span></span>
+		<div class="confirm_yes2">确定</div>
+	</div>
+
+	<div style="text-align:center;margin:20px;background-color:black;color:#fff;">编辑菜单</div>
+
+	<!-- 编辑菜单 -->
+	<ul class="card_bot_edit">
+        <li>
+        	<label>长号</label>
+        	<input type="text" value="phone" id="input_phone"></input><span class="confirm_grayfont">(待确认)</span>
+        	<!-- <a  style="color:#a0a0a0;display:'+on_off[1]+';" href="javascript:void(0)">'+phone+'</a> -->
+        </li>
+        <li>
+        	<label>短号</label>
+        	<input type="text" value="shortphone"></input><span class="confirm_grayfont">(待确认)</span>
+        	<!-- <a  style="color:#a0a0a0;display:'+on_off[3]+';" href="javascript:void(0)">'+shortphone+'</a> -->
+        </li>
+        <li>
+        	<label>学院</label>
+        	<input type="text" value="college" class="'+color[2]+'"></input><span class="confirm_grayfont">(待确认)</span>
+        </li>
+        <li>
+        	<label>专业</label>
+        	<input type="text" value="classroom" class="'+color[3]+'"></input><span class="confirm_grayfont">(待确认)</span>
+        </li>
+        <li>
+        	<label>宿舍</label>
+        	<input type="text" value="address" class="'+color[4]+'"></input><span class="confirm_grayfont">(待确认)</span>
+        </li>
+        <li>
+        	<div class="yes_or_no">
+        		<div class="confirn_yes3">确定</div>
+ 	       		<div class="confirn_no2">取消</div>
+        	</div>
+        </li>
+	</ul>
+
+	<div style="text-align:center;margin:20px;background-color:black;color:#fff;">弹层－勾</div>
+
+	<!-- 弹层－勾 -->
+	<div class="notifitation_gou">
+		<img src="./img/icon-gou.png">
+		<p>编辑成功</p>
+	</div>
+
+	<div style="text-align:center;margin:20px;background-color:black;color:#fff;margin-top:200px;">分割线</div>
+
+
+</body>
+
+</html>
